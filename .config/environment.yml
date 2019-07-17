@@ -1,0 +1,30 @@
+name: gym 
+channels:
+    - conda-forge #https://conda-forge.org/
+    - pytorch
+    - fastai
+dependencies:
+    - python=3.7
+    - nodejs
+    - fastai
+    - cuda92
+    - pytorch
+    - pandas
+    - numpy
+    - scikit-learn
+    - scikit-image
+    - scipy
+    - dask
+    - distributed
+    - torchvision
+    - seaborn
+    - jupyter
+    - notebook
+    - fastprogress
+    - requests
+    - pip
+    - pip:
+        - nvidia-ml-py3
+        - dataclasses
+        - git+https://github.com/dask/dask.git
+        - git+https://github.com/dask/distributed.git
