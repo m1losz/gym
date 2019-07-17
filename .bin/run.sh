@@ -5,6 +5,6 @@ source ~/anaconda3/etc/profile.d/conda.sh
 conda activate gym
 
 #persistent storage
-ln -s /data /gym/data
+ln -sn /data /gym/data
 
 jupyter lab --ip=0.0.0.0 --port=80 --no-browser --allow-root
