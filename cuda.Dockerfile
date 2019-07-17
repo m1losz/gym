@@ -15,7 +15,7 @@ RUN curl -o ~/miniconda.sh -O  https://repo.continuum.io/miniconda/Miniconda3-la
     /opt/conda/bin/conda install conda-build
 
 ENV PATH=$PATH:/opt/conda/bin/
-ENV USER fastai
+ENV USER gym
 # Create Enviroment
 WORKDIR /gym
 COPY . .
