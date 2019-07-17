@@ -18,8 +18,8 @@ dependencies:
     - distributed
     - torchvision
     - seaborn
-    - jupyter
-    - notebook
+    - jupyter #notebook
+    - jupyterlab
     - fastprogress
     - requests
     - pip
