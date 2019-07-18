@@ -21,6 +21,7 @@ dependencies:
     - jupyter #notebook
     - jupyterlab
     - fastprogress
+    - tqdm
     - requests
     - pip
     - pip:
