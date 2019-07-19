@@ -9,11 +9,13 @@ dependencies:
     - fastai
     - cuda92
     - pytorch
+    - dataclasses
     - pandas
     - numpy
     - scikit-learn
     - scikit-image
     - scipy
+    - ipywidgets
     - dask
     - distributed
     - torchvision
@@ -28,6 +30,5 @@ dependencies:
     - pip
     - pip:
         - nvidia-ml-py3
-        - dataclasses
         - git+https://github.com/dask/dask.git
         - git+https://github.com/dask/distributed.git
