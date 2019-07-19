@@ -20,6 +20,8 @@ dependencies:
     - seaborn
     - jupyter #notebook
     - jupyterlab
+    - beakerx
+    - beakerx_tabledisplay
     - fastprogress
     - tqdm
     - requests
