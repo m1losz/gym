@@ -9,6 +9,7 @@ dependencies:
     - fastai
     - cuda92
     - pytorch
+    - tensorflow-gpu
     - dataclasses
     - pandas
     - numpy
