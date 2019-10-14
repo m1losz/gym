@@ -1,5 +1,6 @@
 name: gym 
 channels:
+    - anaconda
     - conda-forge #https://conda-forge.org/
     - pytorch
     - fastai
@@ -9,6 +10,8 @@ dependencies:
     - fastai
     - cuda92
     - pytorch
+    - torchvision
+    - pytorch-gpu
     - tensorflow-gpu
     - dataclasses
     - pandas
@@ -19,7 +22,6 @@ dependencies:
     - ipywidgets
     - dask
     - distributed
-    - torchvision
     - seaborn
     - jupyter #notebook
     - jupyterlab
